@@ -21,7 +21,7 @@ body {
 /*Font Styles*/
 
 h1 {
-  color: #e5df7a;
+  color: #2ab512;
   text-align: center;
   font-size: 44px;
   
@@ -33,7 +33,7 @@ h3 {
 
 
 .header{
-   background-color: rgb(38, 76, 126);
+   background-color: rgb(79, 79, 79);
    margin: 0;
    padding: 0;
    padding-top: 50px;
@@ -155,7 +155,7 @@ aside {
 /* Footer Styles */
 
 body > footer {
-   background-color: rgb(76, 90, 109);
+   background-color: rgb(79, 79, 79);
    font-size: 16px;
    color: #e5df7a;
    text-align: center;
