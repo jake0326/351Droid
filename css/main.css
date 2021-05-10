@@ -22,7 +22,7 @@ html {
    overflow: scroll;
    font-family: Verdana, Geneva, sans-serif;
    font-size: 12px;
-   background: #080808;
+   background: #000000;
 }
 footer > a > em {
 	color: #e9e7da;
@@ -55,7 +55,7 @@ h5 {
   color:white;
 }
 body {
-   background: #546792 ;  
+   background: #3f4144 ;  
    box-shadow: rgb(51, 51, 51) 5px 0px 15px,
                rgb(51, 51, 51) -5px 0px 15px;
    margin-left: 100px;
