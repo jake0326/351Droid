@@ -1,0 +1,297 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.example {
+width: 100%;
+height: 100%;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 75%;
+    max-height: 75%;
+    margin: auto;
+}
+
+html {
+   overflow: scroll;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   background: #20282b;
+}
+footer > a > em {
+	color: #e9e7da;
+}
+footer > a {
+	text-decoration: none;
+	color: #ff0000;
+}
+footer > a:hover{
+	color: white;
+}  h5 {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+h5 > a:hover {
+  color:black;  
+}
+h5 > a:visited{
+    font-size:20px;
+  color:#ff0000;
+}
+h5 > a:link{
+
+    font-size:20px;
+  color:#ff0000;
+}
+h5 {
+  font-size:20px;
+  color:white;
+}
+body {
+   background: #546792 ;  
+   box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+   margin-left: 100px;
+   margin-right: 100px;
+   text-align: center;
+   display: block;
+   min-width: 80%;
+   min-height: 100%;
+}
+
+/*Font Styles*/
+
+h1 {
+  color: #ff0000;
+  text-align: center;
+}
+h2{
+  color: orange;
+  text-align:center;
+  font-size: 32px;
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+
+
+ li {
+   font-size:1.0em;
+ }
+  
+/* Body Header Styles */
+
+body header {
+   background: rgb(134,176,232);   
+}
+
+body header img {
+   display: block;
+   width: 100%;
+}
+
+/* Horizonal Navigation Styles */
+
+nav.horizontal {
+   background-color: rgb(154, 206, 235);
+   min-height: 2em;
+}
+
+nav.horizontal li {
+   color: rgb(31, 73, 125);
+   display: block;
+   line-height: 2em;
+   text-transform: uppercase;
+}
+
+nav.horizontal a {
+   display: block;
+   font-size: 1em;
+}
+
+nav.horizontal a:visited, nav.horizontal a:link {
+   color: rgb(31, 73, 125);
+}
+
+nav.horizontal a:hover, nav.horizontal a:active {
+   background-color: rgb(31, 73, 125);
+   color: black;
+}
+
+/* Main Menu Styles */
+
+ul.mainmenu {
+   display: block;
+}
+
+ul.mainmenu > li {
+   text-indent: 15px;
+}
+
+ul.mainmenu > li:first-of-type a {
+   color: black;
+   background-color: rgb(154, 206, 235);
+}
+
+/* Submenu Styles */
+
+ul.submenu {
+   width: 100%;
+   background-color: rgb(134, 176, 232);
+}
+
+
+/* Section Styles */
+
+section {
+   background-color: rgb(207, 222, 172);
+   clear: both;
+}
+
+section::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+section img {
+   display: block;
+   width: 100%;
+}
+
+section p {
+   line-height: 1.4em;
+   padding: 10px;
+   font-size: 1.2em;
+}
+
+/* Aside Styles */
+
+aside {
+   display: block;
+   background-color: rgb(181, 204, 136);
+}
+
+/* Footer Styles */
+
+body > footer {
+   background-color: rgb(65, 72, 177);
+   font-size: 20px;
+   text-align: center;
+   padding: 10px 0px;
+   
+}
+
+
+
+/* Pulldown Menu Styles */
+ul.submenu {
+	display: none;
+}
+a.subTitle:hover+ul.submenu, ul.submenu:hover {
+   display: block;
+}
+
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+
+   ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+   }
+	figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.example {
+width:100%;
+height: 100%;
+}
+
+   ul.submenu {
+      width: 200%;
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+   }
+}
+/* Tablet */
+
+@media only screen and (min-width: 481px) {
+	
+   ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+   }
+
+   ul.submenu {
+      width: 200%;
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+   } 
+}
+/* Desktop */
+
+@media only screen and (min-width: 769px){
+  /*
+   ul.submenu {
+      background: transparent;
+      box-shadow: none;
+      display: block;
+      position: relative;
+      width: 100%;
+   }
+   nav.horizontal::after {
+      clear: both;
+      content: "";
+      display: table;
+   }
+   nav.horizontal a.subTItle {
+      display: none;
+   }
+article {
+float: left;
+margin-right: 5%;
+width: 55%;
+}
+aside{
+float: left;
+width: 40%;
+}	
+} */
+
+article {
+   background-color: red;
+   text-align: left;
+   }
+
+   ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+   }
+
+   ul.submenu {
+      width: 200%;
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+   }
+}
