@@ -1,0 +1,277 @@
+/*html {
+   height: 100%;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   background: rgb(132,123,245);
+}
+*/
+
+
+body {
+   background: #546792 ;  
+   box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+   margin: 0px auto;
+   min-height: 135%;
+   min-width: 320px;
+   max-width: 1024px;
+   width: 100%;
+}
+
+/*Font Styles*/
+
+h1 {
+  color: #e5df7a;
+  text-align: center;
+  font-size: 44px;
+  
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+
+
+.header{
+   background-color: rgb(38, 76, 126);
+   margin: 0;
+   padding: 0;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   margin-top: 20px;
+}
+ul{
+   background-color: rgba(0,0,0,0);
+}
+p {
+  color: white;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+h6 {
+    color: #e9e7da;
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.5em;
+}
+ li {
+   font-size:1.0em;
+ }
+  
+/* Body Header Styles */
+
+body header {
+   background: rgb(134,176,232);   
+}
+
+body header img {
+   display: block;
+   width: 100%;
+}
+
+/* Horizonal Navigation Styles */
+
+nav.horizontal {
+   background-color: rgb(154, 206, 235);
+   min-height: 2em;
+}
+
+nav.horizontal li {
+   color: rgb(31, 73, 125);
+   display: block;
+   line-height: 2em;
+   text-transform: uppercase;
+}
+
+nav.horizontal a {
+   display: block;
+   font-size: 1em;
+}
+
+nav.horizontal a:visited, nav.horizontal a:link {
+   color: rgb(31, 73, 125);
+}
+
+nav.horizontal a:hover, nav.horizontal a:active {
+   background-color: rgb(31, 73, 125);
+   color: black;
+}
+
+/* Main Menu Styles */
+
+ul.mainmenu {
+   display: block;
+}
+
+ul.mainmenu > li {
+   text-indent: 15px;
+}
+
+ul.mainmenu > li:first-of-type a {
+   color: black;
+   background-color: rgb(154, 206, 235);
+}
+
+/* Submenu Styles */
+
+ul.submenu {
+   width: 100%;
+   background-color: rgb(134, 176, 232);
+}
+
+
+/* Section Styles */
+
+section {
+   background-color: rgb(207, 222, 172);
+   clear: both;
+}
+
+section::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+section img {
+   display: block;
+   width: 100%;
+}
+
+section p {
+   line-height: 1.4em;
+   padding: 10px;
+   font-size: 1.2em;
+}
+
+/* Aside Styles */
+
+aside {
+   display: block;
+   background-color: rgb(181, 204, 136);
+}
+
+/* Footer Styles */
+
+body > footer {
+   background-color: rgb(76, 90, 109);
+   font-size: 16px;
+   color: #e5df7a;
+   text-align: center;
+   padding: 10px 0px;
+   
+}
+
+
+/* Pulldown Menu Styles */
+ul.submenu {
+	display: none;
+}
+a.subTitle:hover+ul.submenu, ul.submenu:hover {
+   display: block;
+}
+
+
+p > a{
+  text-decoration : none;
+  color :'white'  !important;
+  border-bottom: 2px #00acee  solid;
+   border-radius: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+em{
+   color:rgb(200, 215, 248)
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+
+  nav.horizontal {
+    display:none;
+  }
+	
+	nav.horizontal a {
+		font-size: 1.5em;
+		line-height: 2.2em;
+	}
+	aside{
+		display:none;
+	} 
+	
+.header{
+   background-color: rgb(38, 76, 126);
+   margin: 0;
+   padding: 0;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   margin-top: 20px;
+	font-size:36px;
+}
+}
+/* Tablet */
+
+@media only screen and (min-width: 481px) {
+	
+   ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+   }
+
+   ul.submenu {
+      width: 200%;
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+   } 
+   nav {
+     display:none;
+   }
+}
+/* Desktop */
+
+@media only screen and (min-width: 769px){
+  /*
+   ul.submenu {
+      background: transparent;
+      box-shadow: none;
+      display: block;
+      position: relative;
+      width: 100%;
+   }
+   nav.horizontal::after {
+      clear: both;
+      content: "";
+      display: table;
+   }
+   nav.horizontal a.subTItle {
+      display: none;
+   }
+article {
+float: left;
+margin-right: 5%;
+width: 55%;
+}
+aside{
+float: left;
+width: 40%;
+}	
+} */
+   topnav {
+     display:none;
+   }
+   ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+   }
+
+   ul.submenu {
+      width: 200%;
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+   }
+}
