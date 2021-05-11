@@ -29,7 +29,7 @@ position: relative;
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: #5a5757;
+  background: #353232;
 }
 #cssmenu > ul > li {
   float: left;
@@ -53,7 +53,7 @@ position: relative;
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #dddddd;
+  color: #2ab512;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -239,7 +239,7 @@ position: relative;
   #cssmenu #menu-button {
     display: block;
     padding: 17px;
-    color: #dddddd;
+    color: #2ab512;
     cursor: pointer;
     font-size: 12px;
     text-transform: uppercase;
