@@ -203,7 +203,7 @@ em{
 	} 
 	
 .header{
-   background-color: rgb(38, 76, 126);
+   /*background-color: rgb(38, 76, 126); */
    margin: 0;
    padding: 0;
    padding-top: 50px;
