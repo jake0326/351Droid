@@ -70,7 +70,7 @@ position: relative;
   width: 8px;
   height: 2px;
   display: block;
-  background: #dddddd;
+  background: #2ab512;
   content: '';
 }
 #cssmenu > ul > li.has-sub > a:before {
@@ -80,7 +80,7 @@ position: relative;
   display: block;
   width: 2px;
   height: 8px;
-  background: #dddddd;
+  background: #2ab512;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
