@@ -62,7 +62,8 @@ h6 {
 /* Body Header Styles */
 
 body header {
-   background: #3f4144;   
+   /*background: #3f4144;  */
+     background: #000000;
 }
 
 body header img {
